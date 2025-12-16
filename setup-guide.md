@@ -24,17 +24,18 @@ Create VPC-2 in Region B (e.g., us-east-1 – N. Virginia).
 2.Create a Launch Template with:
 
     Amazon Linux 2 / Ubuntu AMI
-
-    Instance type: t2.micro (for testing)
-
-    Security group: allow HTTP (80), HTTPS (443), SSH (22).
-
-    User Data (optional for web app):
+  Instance type: t2.micro (for testing)
+Security group: allow HTTP (80), HTTPS (443), SSH (22).
+ User Data (optional for web app):
 
 #!/bin/bash
+
 yum install -y httpd
+
 systemctl start httpd
+
 systemctl enable httpd
+
 echo "Hello from Region A" > /var/www/html/index.html
 
 3.Create an Auto Scaling Group (ASG) using this launch template.
