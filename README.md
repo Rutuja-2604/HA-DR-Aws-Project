@@ -3,7 +3,7 @@
 
 
 
-**Project Overview:**
+**<h2>Project Overview:</h2>**
 
 “This project designs a highly available and disaster-resilient web application on AWS using VPC, ALB, Auto Scaling, RDS Multi-AZ, S3 replication, and Route 53 failover. It ensures continuous uptime, automatic failover, data protection, and quick recovery across multiple Availability Zones and regions with minimal downtime.”
 
