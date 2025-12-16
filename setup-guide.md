@@ -22,10 +22,12 @@ Create VPC-2 in Region B (e.g., us-east-1 – N. Virginia).
 1.Go to EC2 Dashboard in Region A.
 
 2.Create a Launch Template with:
-
-    Amazon Linux 2 / Ubuntu AMI
+ Amazon Linux 2 / Ubuntu AMI
+ 
   Instance type: t2.micro (for testing)
+  
 Security group: allow HTTP (80), HTTPS (443), SSH (22).
+
  User Data (optional for web app):
 
 #!/bin/bash
