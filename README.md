@@ -45,5 +45,5 @@ Test Failover: Stop instances or simulate failure to check Route 53 failover.
 Fault Tolerance: Even if one instance fails, others in the ASG handle traffic.
 Regional Redundancy: If an entire AWS region fails, traffic is redirected to another.
 Scalability: ASG ensures resources adjust based on demand.
-Business Continuity: Ensures uptime and availability during disasters.
+Business Continuity: Ensures uptime and availability during disastes.
 
