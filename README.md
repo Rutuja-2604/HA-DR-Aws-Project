@@ -1,11 +1,14 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/85c56a1f-8797-4991-b9e6-a6f27a788314" />
 
 
-Project Overview:
+
+
+**Project Overview:**
 
 “This project designs a highly available and disaster-resilient web application on AWS using VPC, ALB, Auto Scaling, RDS Multi-AZ, S3 replication, and Route 53 failover. It ensures continuous uptime, automatic failover, data protection, and quick recovery across multiple Availability Zones and regions with minimal downtime.”
 
-🏗️ Architecture:
+**🏗️ Architecture:**
+
 The architecture consists of:
 
 Two VPCs in different AWS Regions (for DR & fault isolation).
@@ -14,7 +17,7 @@ Two EC2 Instances per region to ensure redundancy within a region.
 Elastic Load Balancer (ALB/ELB) in each region to distribute traffic.
 Amazon Route 53 configured with DNS failover to route traffic between regions.
 
-📌 Flow:
+**📌 Flow:**
 
 Route 53 routes traffic to the nearest healthy region.
 Load Balancers distribute requests to EC2 instances.
@@ -29,7 +32,7 @@ Route 53 – DNS service for failover and disaster recovery.
 S3 (optional) – Data backup and static content hosting.
 CloudWatch – Monitoring and alerts.
 
-**🚀 Deployment Steps:
+**🚀 Deployment Steps:**
 
 Create VPCs in two different AWS regions.
 
@@ -43,7 +46,8 @@ Primary: Region 1 Load Balancer
 Secondary: Region 2 Load Balancer
 Test Failover: Stop instances or simulate failure to check Route 53 failover.
 
-📊 High Availability & Disaster Recovery Benefits:
+
+**📊 High Availability & Disaster Recovery Benefits:**
 
 Fault Tolerance: Even if one instance fails, others in the ASG handle traffic.
 Regional Redundancy: If an entire AWS region fails, traffic is redirected to another.
