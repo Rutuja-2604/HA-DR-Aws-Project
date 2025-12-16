@@ -5,7 +5,7 @@ Project Overview:
 
 “This project designs a highly available and disaster-resilient web application on AWS using VPC, ALB, Auto Scaling, RDS Multi-AZ, S3 replication, and Route 53 failover. It ensures continuous uptime, automatic failover, data protection, and quick recovery across multiple Availability Zones and regions with minimal downtime.”
 
-#🏗️ Architecture:
+🏗️ Architecture:
 The architecture consists of:
 
 Two VPCs in different AWS Regions (for DR & fault isolation).
@@ -28,7 +28,8 @@ Elastic Load Balancer (ELB/ALB) – Traffic distribution.
 Route 53 – DNS service for failover and disaster recovery.
 S3 (optional) – Data backup and static content hosting.
 CloudWatch – Monitoring and alerts.
-🚀 Deployment Steps:
+
+**🚀 Deployment Steps:
 
 Create VPCs in two different AWS regions.
 
