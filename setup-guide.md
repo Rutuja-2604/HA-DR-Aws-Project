@@ -19,6 +19,7 @@ Create VPC-2 in Region B (e.g., us-east-1 – N. Virginia).
     
 ![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/ec2.PNG?raw=true)
 
+![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/ec2%20v.PNG?raw=true)
 
 
 **<h2>⚙️ Step 2: Launch EC2 Instances & Auto Scaling</h2>**
