@@ -1,4 +1,3 @@
-
 **<h2>Setup Guide – High Availability & Disaster Recovery on AWS</h2>**
 
 **<h2>🏗️ Step 1: Create VPCs in Two Regions</h2>**
