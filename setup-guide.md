@@ -17,9 +17,6 @@ Create VPC-2 in Region B (e.g., us-east-1 – N. Virginia).
     
     Create 2 public subnets in different AZs.
     
-![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/ec2.PNG?raw=true)
-
-![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/ec2%20v.PNG?raw=true)
 
 
 **<h2>⚙️ Step 2: Launch EC2 Instances & Auto Scaling</h2>**
@@ -45,6 +42,10 @@ systemctl enable httpd
 
 echo "Hello from Region A" > /var/www/html/index.html
 
+![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/ec2.PNG?raw=true)
+
+![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/ec2%20v.PNG?raw=true)
+
 3.Create an Auto Scaling Group (ASG) using this launch template.
 
     Attach ASG to 2 subnets in Region A.
@@ -54,6 +55,9 @@ echo "Hello from Region A" > /var/www/html/index.html
 4.Repeat steps in Region B, but update User Data:
 
      echo "Hello from Region B" > /var/www/html/index.html
+   ![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/v1.PNG?raw=true)
+
+   ![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/auto%20v.PNG?raw=true)
 
 **<h2>🌐 Step 3: Setup Target Group and Load Balancers</h2>**
 
