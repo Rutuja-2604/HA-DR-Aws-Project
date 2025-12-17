@@ -65,6 +65,11 @@ echo "Hello from Region A" > /var/www/html/index.html
 
      select EC2 instances that you want to target.
 
+     
+![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/target%20group.PNG?raw=true)
+
+![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/target%20v.PNG?raw=true)
+
 2.In Region A, create an **Application Load Balancer (ALB).**
 
       Attach ALB to the 2 subnets in different AZs.
@@ -74,6 +79,10 @@ echo "Hello from Region A" > /var/www/html/index.html
        Listener → HTTP (80) forward to Target Group.
 
 4.Repeat the same steps in Region B.
+
+![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/load.PNG?raw=true)
+
+![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/load%20v.PNG?raw=true)
 
 **<h2>🌍 Step 4: Configure Route 53 for Failover</h2>**
 
