@@ -115,6 +115,11 @@ echo "Hello from Region A" > /var/www/html/index.html
 
   Restart Region A instances → traffic will return to primary region.
 
+ ![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/domain.PNG?raw=true)
+
+ 
+ ![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/domain%20v.PNG?raw=true)
+ 
 
 **<h2>📊 Monitoring & Logging</h2>**
 
