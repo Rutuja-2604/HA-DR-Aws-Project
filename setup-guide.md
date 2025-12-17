@@ -23,6 +23,11 @@ Create VPC-2 in Region B (e.g., us-east-1 – N. Virginia).
 
 1.Go to EC2 Dashboard in Region A.
 
+![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/ec2.PNG?raw=true)
+
+
+![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/ec2%20v.PNG?raw=true)
+
 2.Create a Launch Template with:
  Amazon Linux 2 / Ubuntu AMI
  
@@ -42,9 +47,9 @@ systemctl enable httpd
 
 echo "Hello from Region A" > /var/www/html/index.html
 
-![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/ec2.PNG?raw=true)
+![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/l1.PNG?raw=true)
 
-![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/ec2%20v.PNG?raw=true)
+![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/template%20v.PNG?raw=true)
 
 3.Create an Auto Scaling Group (ASG) using this launch template.
 
