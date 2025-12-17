@@ -104,6 +104,10 @@ echo "Hello from Region A" > /var/www/html/index.html
 
       If Region A is DOWN → Route 53 sends traffic to Region B.
 
+![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/route53.PNG?raw=true)
+
+
+![Alt text](https://github.com/Rutuja-2604/HA-DR-Aws-Project/blob/main/Images/route%2053%20v.PNG?raw=true)
 
 **<h2>🔍 Step 5: Testing Disaster Recovery</h2>**
 
