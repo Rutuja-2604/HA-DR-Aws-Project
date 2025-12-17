@@ -17,6 +17,12 @@ Create VPC-2 in Region B (e.g., us-east-1 – N. Virginia).
     
     Create 2 public subnets in different AZs.
     
+    <img width="950" height="504" alt="ec2" src="https://github.com/user-attachments/assets/fc1ec397-29d8-48ad-8c87-c52da09ba795" />
+
+
+    <img width="952" height="505" alt="ec2 v" src="https://github.com/user-attachments/assets/a919d399-ef3b-4f3e-9c6d-a9c28177bfd9" />
+
+
 **<h2>⚙️ Step 2: Launch EC2 Instances & Auto Scaling</h2>**
 
 1.Go to EC2 Dashboard in Region A.
